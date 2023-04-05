@@ -27,7 +27,7 @@ Content-Type: application/json
 ###
 
 # добавление измерения
-POST http://127.0.0.1:8000/api/sensordetail/
+POST http://127.0.0.1:8000/api/measurement/
 Content-Type: application/json
 
 {
@@ -38,6 +38,6 @@ Content-Type: application/json
 ###
 
 # получение информации по датчику
-GET http://127.0.0.1:8000/api/sensor/1/
+GET http://127.0.0.1:8000/api/sensordetail/1/
 Content-Type: application/json
 
