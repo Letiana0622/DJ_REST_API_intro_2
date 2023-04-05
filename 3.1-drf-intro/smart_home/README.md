@@ -73,11 +73,15 @@
 
 ## Подсказки
 
-1. Вам необходимо будет изменить файлы `models.py`, `serializers.py`, `views.py` и `urls.py`. В места, где нужно добавлять код, включены `TODO`-комментарии. После того как вы добавите код, комментарии можно удалить.
+1. Вам необходимо будет изменить файлы `models.py`, `serializers.py`, `views.py` и `urls.py`. 
+2. В места, где нужно добавлять код, включены `TODO`-комментарии. После того как вы добавите код, комментарии можно удалить.
 
-2. Для автоматического проставления времени используйте аргументы: `auto_now` (при обновлении) и `auto_now_add` (при создании). Подробнее: https://docs.djangoproject.com/en/3.1/ref/models/fields/#django.db.models.DateField.
+2. Для автоматического проставления времени используйте аргументы: `auto_now` (при обновлении) и `auto_now_add` (при создании). 
+3. Подробнее: https://docs.djangoproject.com/en/3.1/ref/models/fields/#django.db.models.DateField.
 
-3. Для сериализатора с подробной информацией по датчику для отображения списка измерений необходимо использовать [вложенный сериализатор](https://www.django-rest-framework.org/api-guide/serializers/#dealing-with-nested-objects). Должен получиться примерно такой код:
+3. Для сериализатора с подробной информацией по датчику для отображения списка измерений необходимо использовать
+4. [вложенный сериализатор](https://www.django-rest-framework.org/api-guide/serializers/#dealing-with-nested-objects). 
+4. Должен получиться примерно такой код:
 
 ```python
 class MeasurementSerializer(serializers.ModelSerializer):
